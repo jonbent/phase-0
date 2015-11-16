@@ -23,6 +23,7 @@ The three stages are:
 ###### Option 1
  1. git add <file-name> or git add . (to add all modified files)
  2. git commit -m "add single line commit message here" or git commit -v (to add multi-line commit message in text editor)
+
 ###### Option 2
  1. git commit -am "add single line commit message here" (to add and commit in one line)
 
