@@ -43,3 +43,29 @@ When it comes to the command line, I am reminded of Spiderman, "with great power
 -help = gets information about the commands
 
 #1.4 Forking and Cloning
+Creating a repository on GitHub is easy.
+
+ 1. Navigate to your GitHub profile.
+ 2. Click on the *+* in the upper right corner of the navigation bar.
+ 3. Select *New Repository*.
+ 4. Name your repository.
+ 5. Select Public or Private.
+ 6. Add a license.
+ 7. Click *Create Repository* button, and you're done!
+
+Forking a repository on GitHub is just as easy.
+
+ 1. Navigate to the public repository you would like to fork.
+ 2. Click the *Fork* button in the upper right corner, and you're done!
+
+Cloning a GitHub repository to your computer is easy too.
+
+ 1. Select the repository you would like to clone from your profile page.
+ 2. In the menu on the right chose whether you would like to clone using HTTPS or SSH.
+ 3. Click the *Copy to Clipboard* button, and switch to your Terminal application.
+ 4. In terminal navigate to the directory you would like to clone the repository.
+ 5. Type *git clone* and paste in the code you copied to your clipboard. Hit *Return* and you're done!
+ 
+Forking a repository allows you to clone and work on an existing repository to your computer without directly effecting the existing repository. This makes more sense than creating a new repository when you will be working on existing code.
+
+Fortunately, I have used git and GitHub previously so I did not run into any challenges, but it was a good refresher to have seeing how I have not done it in awhile.
