@@ -1,12 +1,12 @@
-![3.4 Challenge 1](../../week-2/imgs/3.4_challenge_1)
-![3.4 Challenge 2](../../week-2/imgs/3.4_challenge_2)
-![3.4 Challenge 3](../../week-2/imgs/3.4_challenge_3)
-![3.4 Challenge 4](../../week-2/imgs/3.4_challenge_4)
-![3.4 Challenge 5](../../week-2/imgs/3.4_challenge_5)
-![3.4 Challenge 6](../../week-2/imgs/3.4_challenge_6)
-![3.4 Challenge 7](../../week-2/imgs/3.4_challenge_7)
-![3.4 Challenge 8](../../week-2/imgs/3.4_challenge_8)
-![3.4 Challenge 9](../../week-2/imgs/3.4_challenge_9)
+![3.4 Challenge 1](../../week-2/imgs/3.4_challenge_1.png)
+![3.4 Challenge 2](../../week-2/imgs/3.4_challenge_2.png)
+![3.4 Challenge 3](../../week-2/imgs/3.4_challenge_3.png)
+![3.4 Challenge 4](../../week-2/imgs/3.4_challenge_4.png)
+![3.4 Challenge 5](../../week-2/imgs/3.4_challenge_5.png)
+![3.4 Challenge 6](../../week-2/imgs/3.4_challenge_6.png)
+![3.4 Challenge 7](../../week-2/imgs/3.4_challenge_7.png)
+![3.4 Challenge 8](../../week-2/imgs/3.4_challenge_8.png)
+![3.4 Challenge 9](../../week-2/imgs/3.4_challenge_9.png)
 
 ####How can you use Chrome's DevTools inspector to help you format or position elements?
 You can use Chrome's DevTools inspector to instantly affect the DOM of an HTML file to reflect formatting and CSS changes. This allows you to visual see the changes you are making. Because it is only temporary and refreshing the page removes any formatting you can easily reset any changes you made. Also, highlighting an element in the DOM will show the elements dimensions so you can see if there is any margin or padding on the element.
@@ -16,9 +16,9 @@ By selecting the element in the DOM you can add or change the CSS width and heig
 
 ####What are the differences between absolute, fixed, static, and relative positioning? Which did you find easiest to use? Which was most difficult?
 
-**Absolute:** Is positioned relative to its parent element.
-**Fixed:** Will fix the element within the web browser. You can adjust the position using top, left, right, or bottom; but the element will stay in that position even if the page is scrolled.
-**Static:** Is the default type of positioning for any element.
+**Absolute:** Is positioned relative to its parent element.   
+**Fixed:** Will fix the element within the web browser. You can adjust the position using top, left, right, or bottom; but the element will stay in that position even if the page is scrolled.   
+**Static:** Is the default type of positioning for any element.   
 **Relative:** Is relative to itself and can be positioned using top, left, right, or bottom. Adjusting any of these attributes will change the position of the element with the position set to relative without effecting any other element.
 
 I guess I would say the fixed and relative are fairly easy to use, and I seem to always have troubles with absolute.
