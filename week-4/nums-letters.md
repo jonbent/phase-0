@@ -21,10 +21,10 @@ puts (60 * 24) * ((365 * 10) + 2)
    
 ####How does Ruby handle addition, subtraction, multiplication, and division of numbers?   
 Ruby handles basic arithmetic in the following way:
-  * __Addition:__ uses the `+` symbol   
-  * __Subtraction:__ uses the `-` symbol   
-  * __Multiplication:__ uses the `*` symbol
-  * __Division:__ uses the `\\` symbol   
+  * __Addition:__ uses the ```ruby +``` symbol   
+  * __Subtraction:__ uses the ```ruby -``` symbol   
+  * __Multiplication:__ uses the ```ruby *``` symbol
+  * __Division:__ uses the ```ruby \``` symbol   
 
 ####What is the difference between integers and floats?   
 An integer is any number without a decimal point, while a float is any number with a decimal point.   
