@@ -116,7 +116,7 @@ cartman_says('Well I\'ve been lickin\' this carpet for 3 whole hours and I don\'
 #   puts offensive_message
 # end
 
-# cartman_says('Well I\'ve been lickin\' this carpet for 3 whole hours and I don\'t feel like a lesbian.'')
+# cartman_says('Well I\'ve been lickin\' this carpet for 3 whole hours and I don\'t feel like a lesbian.')
 
 # --- error -------------------------------------------------------
 
