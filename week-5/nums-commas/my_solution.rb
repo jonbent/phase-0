@@ -42,7 +42,25 @@ end
 
 # 2. Refactored Solution
   
-
+def separate_comma(integer)
+  integer.to_s.reverse.split('').each_slice(3).map {|a| a.join}.join(",").reverse
+end
 
 
 # 3. Reflection
+# What was your process for breaking the problem down? What different approaches did you consider?
+# The logic of breaking down seemed fairly straight forward, so I really didn't pursue any other options.
+
+# Was your pseudocode effective in helping you build a successful initial solution?
+# It was, but I still seem to be having difficulty implementing my logic into functional code.
+
+# What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
+# I had actually used all the methods in the refactored solution in other challenges. I found that the Ruby documentation is pretty straight forward and was able to figure out what I needed relatively easily. The refactored method worked on the same logic as the original solution, just with a lot less code.
+
+# How did you initially iterate through the data structure?
+# By taking the size of the string array and dividing it by 3, the number of places after the comma in a number, I was able to use the times method to iterate over the array the number of times equal to the quotient.
+
+# Do you feel your refactored solution is more readable than your initial solution? Why?
+# Yes, totally. Mainly because it seems more logical.
+
+
