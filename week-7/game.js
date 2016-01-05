@@ -265,17 +265,17 @@ function displayWinner(winner) {
 
 // Reflection
 /*
-    What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
-    I don't think that I my approach was any different because this was JavaScript. I felt that my biggest issues was going too far down the rabbit hole in trying to get the game to work the way I intended. Each time I thought that I had figured one thing out and could do more, I quickly realized that it created 10 different issues I hadn't counted on.
+    What was the most difficult part of this challenge?
+    I felt that my biggest issues was going too far down the rabbit hole in trying to get the game to work the way I intended. Each time I thought that I had figured one thing out and could do more, I quickly realized that it created 10 different issues I hadn't counted on. This is an example of bitting off more than I could chew, but I learned a lot!
 
-    What did you learn about iterating over arrays in JavaScript?
-    That it is not that much different from Ruby and is pretty straight forward.
+    What did you learn about creating objects and functions that interact with one another?
+    It was differently beneficial, again the biggest issue was that I was trying so hard to just get it to work I didn't really spend too much time refactoring. I'm sure I will go back over this and try and clean it up later.
 
-    What was different about solving this problem in JavaScript?
-    I think the biggest difference I had was the shear scope of what the project ended up becoming. Prior to this, I hadn't really down anything this large that wasn't primarily HTML and CSS.
-
-    What built-in methods did you find to incorporate in your refactored solution?
+    Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
     I'm sure that there are several that I could have used, but I spent so much time trying to just get it to work that I really didn't bother refactoring too much.
+
+    How can you access and manipulate properties of objects?
+    You can access and manipulate the properties of objects by calling the property and either directly assigning a new value or by passing a new value to it from another function.
 
 */
 
