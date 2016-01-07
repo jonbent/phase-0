@@ -1,12 +1,12 @@
 ## Release 2: Create a One-to-one Schema   
 
-![Release 2 Schema Image](/imgs/release_2.png)
+![Release 2 Schema Image](imgs/release_2.png)
 
 This is a one-to-one relationship because a customer will only have one customer history and a customer history will only belong to one customer. Although you could combine the two into on table, this would make more sense in querying your database because a customer's history could contain an infinite number of orders and it would be very slow to find out the customer's phone number, for example, if you had their order history combined.   
 
 ## Release 4: Refactor   
 
-![Release 4 Schema Image](/imgs/release_4.png)   
+![Release 4 Schema Image](imgs/release_4.png)   
 
 ## Release 6: Reflect   
 
