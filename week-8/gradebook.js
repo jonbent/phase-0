@@ -23,34 +23,69 @@ var scores = [ [80, 70, 70, 100],
 // __________________________________________
 // Write your code below.
 
+// var gradebook = new Object();
 
+// for(var i = 0; i < students.length; i++) {
+//   gradebook[students[i]] = new Object();
+//   gradebook[students[i]].testScores = scores[i];
+// }
 
+// gradebook.addScore = function (name, score) {
+//   return gradebook[name].testScores.push(score);
+// }
 
+// gradebook.getAverage = function(name){
+//   return average(gradebook[name].testScores);
+// }
 
-
-
+// function average(intArray){
+//   var sum = 0;
+//   for (var i = 0; i < intArray.length; i++){
+//     sum += intArray[i];
+//   }
+//   return (sum / intArray.length);
+// }
 
 // __________________________________________
 // Refactored Solution
 
+var gradebook = new Object();
 
+for(var i = 0; i < students.length; i++) {
+  gradebook[students[i]] = new Object();
+  gradebook[students[i]].testScores = scores[i];
+}
 
+gradebook.addScore = function (name, score) {
+  return gradebook[name].testScores.push(score);
+}
 
+gradebook.getAverage = function(name){
+  return average(gradebook[name].testScores);
+}
 
-
-
+function average(intArray){
+  var sum = intArray.reduce(function(a, b){return a + b;})
+  return (sum / intArray.length);
+}
 
 // __________________________________________
 // Reflect
 
+/*
+What did you learn about adding functions to objects?
+Honestly, I really didn't learn anything new. This challenge just seemed to reinforce the idea that properties within an object can hold any type of value, even a function.
+
+How did you iterate over nested arrays in JavaScript?
+We used a standard for loop to iterate over the array.
+
+Were there any new methods you were able to incorporate? If so, what were they and how did they work?
+While refactoring, we used the .reduce method to return the sum of our test scores.
 
 
 
 
-
-
-
-
+*/
 // __________________________________________
 // Test Code:  Do not alter code below this line.
 
