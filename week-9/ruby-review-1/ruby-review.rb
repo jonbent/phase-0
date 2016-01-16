@@ -6,7 +6,11 @@
 
 # Pseudocode
 
-
+# Define method that accepts a string as an argument
+#   Split string
+# IF the length of the string doesn't equal zero
+#   Iterate through string and reverse each word in     place
+# Else return empty string
 
 # Initial Solution
 
