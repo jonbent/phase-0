@@ -61,7 +61,7 @@ function add() {
   document.getElementById('qty').appendChild(addListQty)
 }
 
-function updateItemm() {
+function updateItem() {
   var listItem = document.getElementById('addItemInput').value.toLowerCase();
   var itemQty = document.getElementById('addQtyInput').value;
   var frm = document.getElementsByName('item-list')[0];
